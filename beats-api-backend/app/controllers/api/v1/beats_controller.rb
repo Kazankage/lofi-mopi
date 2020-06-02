@@ -1,4 +1,4 @@
-class BeatsController < ApplicationController
+class Api::V1::BeatsController < ApplicationController
     def index
         @beats = Beat.all
 
