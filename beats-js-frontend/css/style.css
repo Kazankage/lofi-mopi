@@ -28,3 +28,43 @@ header h5 {
 header p {
     font-size: 15px;
 }
+
+.visuals{
+    text-align: center;
+}
+ .pads {
+     background-color: lightsalmon;
+     width: 100%;
+     display: flex;
+ }
+
+ .pads > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+#pad1 {
+    background:lightcoral;
+ }
+ #pad2 {
+    background: lightsalmon;
+}
+#pad3 {
+    background:rgba(255, 255, 43, 0.541);
+}
+#pad4 {
+    background:lightseagreen;
+}
+#pad5 {
+    background:cadetblue;
+}
+#pad6 {
+    background:mediumpurple;
+}
+#pad7 {
+    background:black;
+}
+#pad8 {
+    background:grey;
+}
